@@ -202,6 +202,27 @@
             75%{color: #F7DBF0 ;}
             100%{color: #BEAEE2;}}
 
-          .container__iniciosession{
-              
-          }
+          
+          .navbar {
+            background-color: #1081f3!important;
+            border-radius: 25px;
+            width: auto;
+            padding: 0;
+            
+        }
+        .navbar-brand{
+            font-size: 40px;
+            animation-name: color;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+            animation-duration: 2s;
+        }
+        .navbar-brand:hover{
+            transform: scale(2,1);
+            transition: 2s;
+            transform: rotate(360deg);
+             }
+        .nav-link{
+            color: whitesmoke !important;
+            font-size: 20px;
+        }
